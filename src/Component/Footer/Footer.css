@@ -1,0 +1,102 @@
+.footer {
+    background: #fff;
+    padding: 20px;
+  }
+
+  .footer .box-container{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      position: relative;
+      gap: 10px;
+ 
+  }
+  .footer .box-container .box {
+    width: 100%;
+  }
+
+  .footer .box-container .box h3{
+   font-size: 1.5rem;
+   color: black;
+   padding: 2rem 0;
+
+  }
+
+  .footer .box-container .box h3 i{
+      color: orange;
+
+  }
+
+  .footer .box-container .box .links{
+      display: block;
+      font-size: 1.2rem;
+      color: gray;
+      padding: 1rem 0;
+      padding-right: 5rem;
+    
+     }
+
+     .footer .box-container .box .links i{
+      color: orange;
+      padding-right: .5rem;
+     }
+
+     .footer .box-container .box .links:hover i{
+      padding-right: 2rem;
+     }
+
+     .footer .box-container .box p{
+      line-height: 1.8;
+      font-size: 1.5rem;
+      color: gray;
+      padding: 1rem 0;
+     }
+
+     .footer .box-container .box .share a{
+      height: 4rem;
+      width: 4rem;
+      line-height: 4rem;
+      border-radius: .5rem;
+      font-size: 2rem;
+      color: black;
+      margin-left: .2rem;
+      background: #eee;
+      text-align: center;
+     }
+
+     .footer .box-container .box .share a:hover{
+      background: orange;
+      color: #fff;
+     }
+
+     .footer .box-container .box .email{
+      width: 100%;
+      margin: .7rem 0;
+      padding: 1rem;
+      border-radius: .5rem;
+      background: #eee;
+      font-size: 1.6rem;
+      color: black;
+      text-transform: none;
+     }
+
+     .footer .box-container .box .payment-img{
+      margin-top: 2rem;
+      height: 3rem;
+
+     }
+
+     .footer .credit{
+      text-align: center;
+      margin-top: 2rem;
+      padding:1rem;
+padding-top: 2.5rem;
+font-size: 2rem;
+color: black;
+border-top: black;
+     }
+
+     .footer .credit span{
+      color: rgb(233, 154, 7);
+
+     }
+     

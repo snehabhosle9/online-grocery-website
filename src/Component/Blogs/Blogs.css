@@ -1,0 +1,62 @@
+.blogs .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    position: relative;
+    gap: 10px;
+    padding: 10px;
+}
+.blogs .box-container .box{
+    overflow: hidden;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    background: #fff;
+    width: 100%;
+}
+
+.blogs .box-container .box img{
+    height: 22rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs .box-container .box .content{
+    padding: 2rem;
+}
+
+.blogs .box-container .box .content .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: black;
+}
+.blogs .box-container .box .content .icons a{
+    color: #666;
+    font-size: 1.2rem;
+    
+}
+
+.blogs .box-container .box .content .icons a i{
+    color: orange;
+    padding-right: .5rem;
+}
+
+.blogs .box-container .box .content .icons a:hover{
+    color: black;
+}
+
+.blogs .box-container .box .content h3{
+    line-height: 1;
+    color: black;
+    font-size: 1.4rem;
+    padding: .2rem 0;
+}
+
+.blogs .box-container .box .content p{
+    line-height: 1.8;
+    color: grey;
+    font-size: 1rem;
+    padding: .5rem 0;
+}
+

@@ -1,0 +1,12 @@
+ .menu .navbar a{
+    font-size: 18px;
+    margin: 0 1rem;
+    color: var(--black);
+    text-decoration: none;
+}
+
+
+
+ .menu .navbar a:hover{
+   color: var(--orange);
+}

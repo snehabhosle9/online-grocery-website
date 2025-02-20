@@ -1,0 +1,29 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem; 
+  }
+  
+  /* Search input styles: width, padding, border, and rounded corners */
+  .search-input {
+    width: 20rem;            
+    padding: 0.5rem;         
+    border: 2px solid #d1d5db; 
+    border-radius: 9999px;   
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Focus state for the input */
+  .search-input:focus {
+    outline: none;
+    border-color: #3b82f6; 
+  }
+  
+  /* Output text styling */
+  .search-output {
+    margin-top: 1rem;        
+    font-size: 1.125rem;     
+    font-weight: 500;        
+  }
